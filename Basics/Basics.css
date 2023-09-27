@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+#header{
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    background-color: mediumvioletred;
+}
+h4{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: teal;
+    color: aliceblue;
+}
+tr,td{
+    text-align: center;
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 5px;
+}
+table{
+    margin: 0 auto;
+}
+#border{
+    display: inline;
+    border: 5px dashed teal;
+    border-radius: 10px;
+    padding: 10px;
+}
