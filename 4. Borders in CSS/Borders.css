@@ -1,0 +1,33 @@
+#header{
+    margin: 0 auto;
+    width: 60%;
+    /* border-style: solid; Selects the kind of border */
+    /* border-color:blueviolet; Selects the color */
+    text-align: center;
+    border-radius: 70px;  /*Selectes the radius of corners of the border*/
+    font-size: x-large;
+    border: 10px solid blueviolet;
+}
+p{
+    padding: 15px;   /*we can also select for one side of border*/
+    margin: 0 auto;  /*for that select border-top bottom or anyside*/ 
+    width: 60%;      /*and then apply the effect*/
+    border-width: 5px;  /*border-width: top right bottom left*/
+    border-radius: 30px;
+    text-align: center;
+}
+p.dotted {border-style: dotted;border-color: aquamarine;}
+p.dashed {border-style: dashed;border-color: yellowgreen;}
+p.solid {border-style: solid;border-color: brown;}
+p.double {border-style: double;border-color: violet;}
+p.groove {border-style: groove;border-color: teal;}
+p.ridge {border-style: ridge;border-color: springgreen;}
+p.inset {border-style: inset;border-color: tomato;}
+p.outset {border-style: outset;border-color: slateblue;}
+p.none {border-style: none;border-color: purple;}
+p.hidden {border-style: hidden;border-color: salmon;}
+p.mix {border-style: dotted dashed solid double;border-color:red yellow green blue;}
+p.top{border-top:7px solid slateblue}
+p.right{border-right:7px solid steelblue}
+p.bottom{border-bottom:7px solid seagreen}
+p.left{border-left:7px solid mediumvioletred}
