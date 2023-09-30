@@ -1,0 +1,17 @@
+#Header{
+    width: 80vw;   /*viewport width*/
+    margin: 0 auto;
+    border: 2px solid violet;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: thistle;
+}
+.para{
+    width: 80vw;
+    margin:20px auto;
+    border: 2px solid seagreen;
+    background-color: cadetblue;
+    padding: 20px;
+    box-sizing: border-box;
+}
