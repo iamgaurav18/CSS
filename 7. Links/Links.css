@@ -1,0 +1,46 @@
+/* 
+links can be styled differently depending on what state they are in.
+
+The four links states are:
+
+a:link - a normal, unvisited link
+a:visited - a link the user has visited
+a:hover - a link when the user mouses over it
+a:active - a link the moment it is clicked 
+*/
+h1{
+    padding: 10px;
+    font-size: xx-large;
+    border: 2px solid purple;
+    border-radius: 20px;
+    text-align: center;
+    width: 60vw;
+    margin: 0 auto;
+}
+div{
+    margin: 50px auto;
+    text-align: center;
+    width: 60vw;
+}
+a{
+    border: 2px solid seagreen;
+    padding: 10px 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+a.one:link {color:#ff0000;}
+a.one:visited {color:#0000ff;}
+a.one:hover {color:#ffcc00;}
+
+a.two:link {color:#ff0000;}
+a.two:visited {color:#0000ff;}
+a.two:hover {font-size:150%;}
+
+a.three:link {color:#ff0000;}
+a.three:visited {color:#0000ff;}
+a.three:hover {background:#66ff66;}
+
+a.four:link {color:#ff0000;}
+a.four:visited {color:#0000ff;}
+a.four:hover {font-family:monospace;background-color:plum;}
