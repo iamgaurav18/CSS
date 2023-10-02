@@ -1,0 +1,30 @@
+h1{
+    width: 60%;
+    border: 3px solid steelblue;
+    border-radius: 45px;
+    font-size: xx-large;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+div{
+    width: 60vw;
+    margin: 30px auto;
+    padding:20px;
+}
+table{
+    border: 1px solid black;
+    width: 50vw;
+    padding:0px;
+}
+tr.headers{
+    background-color: mediumseagreen;
+}
+th,td{
+    padding: 15px;
+}
+tr{
+    background-color:lightgreen ;
+}
+tr:hover{background-color: teal;}
+tr.headers:hover{background-color: mediumseagreen;}
