@@ -26,5 +26,7 @@ th,td{
 tr{
     background-color:lightgreen ;
 }
+tr:nth-child(even){background-color: lawngreen;} /*to turn alternate row with different color*/
 tr:hover{background-color: teal;}
+/*to change color on hover*/
 tr.headers:hover{background-color: mediumseagreen;}
