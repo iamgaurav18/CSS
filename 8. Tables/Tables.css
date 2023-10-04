@@ -16,6 +16,7 @@ table{
     border: 1px solid black;
     width: 50vw;
     padding:0px;
+    max-width: 6vw;  /* this will turn the table into scrollable table when view is very small*/
 }
 tr.headers{
     background-color: mediumseagreen;
