@@ -1,0 +1,43 @@
+div.para{
+    width: 70vw;
+    text-align: center;
+}
+.visible{
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: visible;
+}
+#hidden{
+    margin-top: 100px;
+}
+.hidden{
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: hidden;
+}
+.scroll{
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: scroll;
+}
+.auto{
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: auto;
+}
+.overflow-xy{
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll; /* Add vertical scrollbar */
+}
