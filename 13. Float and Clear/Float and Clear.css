@@ -1,0 +1,50 @@
+h1{
+    width: 60vw;
+    background-color: slategrey;
+    color: aliceblue;
+    font-size: xx-large;
+    padding: 25px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+p,h3{
+    text-align: center;
+    margin: 0 auto;
+}
+#red{
+    float: left;
+    padding: 15px;
+    background-color: red;
+}
+#yellow{
+    float: left;
+    padding: 15px;
+    background-color:yellow;
+}
+#blue{
+    float: left;
+    padding: 15px;
+    background-color: skyblue;
+}
+#green{
+    float: left;
+    padding: 15px;
+    background-color: lightgreen;
+}
+.colors{
+    width: 60vw;
+    margin: 0 auto;
+}
+.clearfix{
+    border: 3px solid violet;
+    width: 90vw;
+    margin: 0 auto;
+    overflow: auto;
+}
+.clear{
+    display: block;
+    padding: 30px;
+    background-color: slategrey;
+    width: 10vw;
+}
