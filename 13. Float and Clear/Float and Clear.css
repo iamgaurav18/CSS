@@ -48,3 +48,14 @@ p,h3{
     background-color: slategrey;
     width: 10vw;
 }
+.box {
+    float: left;
+    width: 15%;
+    padding: 50px;
+  }
+  
+  .clearfix2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
