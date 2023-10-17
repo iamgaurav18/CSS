@@ -14,7 +14,7 @@ h1{
     border-radius: 50px;
 }
 .leftbox{
-    width: 10vw;
+    width: 10vw;  /*align using absolute*/
     height: 20vh;
     background-color: crimson;
     position: absolute;
@@ -22,10 +22,23 @@ h1{
     left:0px;
 }
 .rightbox{
-    width: 10vw;
+    width: 10vw;    /*align using float, this will align within width of parent element*/
     height: 20vh;
     background-color:purple;
-    position: absolute;
+    float: right;
     border-radius: 50px;
-    right:0px;
+}
+.p1{     /*this we can a;ign both horizontally and vertically*/
+    display: inline;
+    /* margin: auto; */
+    line-height: 20vh;
+    position: relative;
+    /* text-align: center; */
+    left: 50%;
+}
+.p2{ /* centering both horizontally and vertically Using flexbox*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 20vh
 }
